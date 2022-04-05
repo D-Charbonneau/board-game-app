@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     button {
-      height: 52px;
-      margin-left: 5px;
+        height: 52px;
+        margin-left: 5px;
     }
 
     .mat-form-field {
@@ -15,36 +15,41 @@
 }
 
 .searched-games {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .game-card {
-  width: 200px;
-  font-size: .75em;
-  display: flex;
-  flex-direction: column;
-  margin: 16px 16px;
-  cursor: pointer;
+    width: 200px;
+    font-size: .75em;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    cursor: pointer;
 
-  img {
-    width: 100%;
-    margin: auto;
-  }
+    img {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 .card-title-container {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 
-  .mat-card-title {
-    font-size: 2.5em;
-    line-height: normal;
-  }
+    .mat-card-title {
+        font-size: 2.5em;
+        line-height: normal;
+    }
 }
 
 .mat-card-content {
-  font-size: 1.5em;
-  line-height: normal;
+    font-size: 1.5em;
+    line-height: normal;
+}
+
+.mat-card-actions {
+    display: flex;
+    justify-content: space-around;
 }
